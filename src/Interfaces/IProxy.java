@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Clases;
+package Interfaces;
 
 /**
  *
  * @author Andrés
  */
-public class Facade {
-    
+public interface IProxy {
+    public long iniciarSesion(String correo, String contraseña);
 }
